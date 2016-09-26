@@ -64,6 +64,10 @@ static void *alertViewKey = @"alertViewKey";
 {
     NSLog(@"===什么会");
 }
+- (void)dealloc
+{
+    objc_removeAssociatedObjects((__bridge id)(alertViewKey));
+}
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
 

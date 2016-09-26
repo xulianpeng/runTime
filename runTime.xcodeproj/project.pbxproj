@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893430891D504F6700141749 /* XLPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893430881D504F6700141749 /* XLPTextView.m */; };
 		89B57A9E1D047E3E000B1666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B57A9D1D047E3E000B1666 /* main.m */; };
 		89B57AA11D047E3E000B1666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B57AA01D047E3E000B1666 /* AppDelegate.m */; };
 		89B57AA41D047E3E000B1666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B57AA31D047E3E000B1666 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893430871D504F6700141749 /* XLPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPTextView.h; sourceTree = "<group>"; };
+		893430881D504F6700141749 /* XLPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPTextView.m; sourceTree = "<group>"; };
 		89B57A991D047E3E000B1666 /* runTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B57A9D1D047E3E000B1666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89B57A9F1D047E3E000B1666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				89B57AA01D047E3E000B1666 /* AppDelegate.m */,
 				89B57AA21D047E3E000B1666 /* ViewController.h */,
 				89B57AA31D047E3E000B1666 /* ViewController.m */,
+				893430871D504F6700141749 /* XLPTextView.h */,
+				893430881D504F6700141749 /* XLPTextView.m */,
 				89B57AA51D047E3E000B1666 /* Main.storyboard */,
 				89B57AA81D047E3E000B1666 /* Assets.xcassets */,
 				89B57AAA1D047E3E000B1666 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893430891D504F6700141749 /* XLPTextView.m in Sources */,
 				89B57AA41D047E3E000B1666 /* ViewController.m in Sources */,
 				89B57AA11D047E3E000B1666 /* AppDelegate.m in Sources */,
 				89B57A9E1D047E3E000B1666 /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				89B57AC81D047E3E000B1666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B57AC91D047E3E000B1666 /* Build configuration list for PBXNativeTarget "runTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				89B57ACB1D047E3E000B1666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B57ACC1D047E3E000B1666 /* Build configuration list for PBXNativeTarget "runTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				89B57ACE1D047E3E000B1666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
