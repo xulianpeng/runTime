@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+//typeof myBlock = (void)myBlock()
+typedef void(^loginSuccessBlock)(NSArray *arr);
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *pushAlert;
+
+@property(nonatomic,copy)loginSuccessBlock myLoginBlock;
+
 - (IBAction)pushAlertNew:(id)sender;
 
 
